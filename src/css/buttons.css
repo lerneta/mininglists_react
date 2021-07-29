@@ -1,0 +1,76 @@
+/* Estilos de botones principales */
+
+@import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+
+.button1 {
+  background: white;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100px;
+  margin-top: -10px;
+  height: 29px;
+  top: 25px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-family: SF UI Display;
+}
+
+.button2 {
+  background: #00656e;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  width: 86px;
+  margin-top: -10px;
+  height: 29px;
+  top: 25px;
+  left: 1115px;
+  border: 2px solid #00656e;
+  box-sizing: border-box;
+  font-family: SF UI Display;
+  border-radius: 40px;
+}
+
+/* Botones secundarios */
+.button3 {
+  color: white;
+  padding: 10px;
+  width: 143px;
+  height: 43px;
+  font-size: 18px;
+  position: absolute;
+  left: 160px;
+  margin-top: 25px;
+  background: #00656e;
+  border: 2px solid #00656e;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-family: SF UI Display;
+}
+
+.button4 {
+  color: white;
+  padding: 10px;
+  width: 211px;
+  height: 44px;
+  margin-top: 23px;
+  font-size: 18px;
+  background: #00656e;
+  border: 2px solid #00656e;
+  box-sizing: border-box;
+  font-family: SF UI Display;
+  border-radius: 40px;
+}
+
+.button5 {
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 127.25px;
+  height: 33px;
+  margin-top: 200px;
+  font-family: SF UI Display;
+  margin-left: -250px;
+}

@@ -1,0 +1,645 @@
+/* Ajustes generales de estilo */
+
+@import url(//db.onlinewebfonts.com/c/762c72a2791c9d3eadc7e3b6b935aa69?family=SF+UI+Display);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: SF UI Display;
+}
+
+nav ul {
+  margin: 25px;
+  border: 0;
+  background-color: #c7dddf;
+}
+
+nav li {
+  display: block;
+  margin-left: 15px;
+  float: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #091312;
+}
+
+a {
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h1 {
+  text-align: left;
+  padding-left: 130px;
+  padding-top: 20px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 70px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: #091312;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 130px;
+  padding-top: 20px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 24px;
+}
+
+.flecha {
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.flecha img {
+  width: 24px;
+  height: 35px;
+}
+
+/* Sección Superior Index */
+#sup {
+  height: 493px;
+  background-image: url("http://localhost:3000/images/ilustracion2.png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  position: relative;
+  top: -25px;
+  padding: 25px;
+  background-position: right bottom;
+  background-color: #c7dddf;
+}
+
+.lifloat {
+  float: left;
+}
+
+.lifloat img {
+  width: 200px;
+  margin-top: -10px;
+}
+
+#busqueda {
+  padding-top: 50px;
+}
+
+#busqueda #container {
+  text-align: center;
+  margin: 300px;
+  border-radius: 200px 200px 200px 200px;
+  box-shadow: 10px 10px 34px -8px rgba(0, 0, 0, 0.75);
+  background: white;
+  width: 527px;
+  height: 45px;
+  margin: 0 auto 0 auto;
+}
+
+.division {
+  width: 1px;
+  height: 40px;
+  background: #707070;
+  float: left;
+  margin-top: 2px;
+}
+
+#busqueda #container input {
+  border: 0px;
+  float: left;
+  margin-left: 25px;
+  height: 40px;
+  width: 40%;
+  color: #555555;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+}
+#busqueda #container input:focus {
+  outline: none;
+}
+.search {
+  width: 35px;
+  height: 35px;
+  float: right;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 7px;
+  margin-top: 5px;
+  background-color: #00656e;
+  background-image: url("http://localhost:3000/images/loupe.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
+
+/* Sección Media Index */
+
+/* Primera parte */
+
+.contenedor {
+  background: #ffffff;
+  border: 2px solid #555555;
+  box-sizing: border-box;
+  width: 182px;
+  height: 227px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex inline;
+  flex-direction: row;
+}
+.contenedor img {
+  margin-top: 50px;
+  width: 66.2px;
+}
+
+.contenedor p {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.tabla {
+  margin-left: 10%;
+  margin-top: 3%;
+  max-width: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Segunda parte */
+
+#segpart {
+  margin-bottom: 26px;
+}
+
+.seccionprincipal {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  max-width: 100%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 65px 100px 100px 100px;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pregunta pregunta"
+    "item1 item2"
+    "item3 item4"
+    "boton boton";
+}
+
+.seccionprincipal img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.pregunta {
+  grid-area: pregunta;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #00656e;
+}
+.item1 {
+  grid-area: item1;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 25px;
+  line-height: 23px;
+}
+.item2 {
+  grid-area: item2;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.item4 {
+  grid-area: item4;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.item3 {
+  grid-area: item3;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: row;
+  line-height: 23px;
+}
+.inputbutton {
+  grid-area: boton;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.inputbutton input {
+  margin: 0 auto 0 auto;
+  margin-left: 35%;
+}
+
+#segpart {
+  margin-top: 27px;
+}
+.seccion1 {
+  display: inline-block;
+  width: 55%;
+  margin-left: 70px;
+  font-style: normal;
+  color: #000000;
+  height: 170px;
+}
+
+.seccion2 {
+  display: inline;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+}
+.seccion2 img {
+  width: 507px;
+  margin-top: 20px;
+}
+
+/* Tercera parte */
+
+#terpart {
+  width: 70%;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 181px;
+  grid-template-rows: 190px;
+  gap: 10px 10px;
+  grid-template-areas:
+    "BannerPrincipal BannerPrincipal Primero segundo tercero"
+    "BannerPrincipal BannerPrincipal cuarto quinto sexto";
+}
+.BannerPrincipal1 {
+  grid-area: BannerPrincipal;
+}
+.Primero {
+  grid-area: Primero;
+}
+.segundo {
+  grid-area: segundo;
+}
+.tercero {
+  grid-area: tercero;
+}
+.cuarto {
+  grid-area: cuarto;
+}
+.quinto {
+  grid-area: quinto;
+}
+.sexto {
+  grid-area: sexto;
+}
+
+.bannerprincipal {
+  width: 613px;
+  height: 380px;
+  background-image: url("http://localhost:3000/images/banner1.png");
+  background-size: cover;
+  border-radius: 20px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+
+.bannerprincipal p {
+  width: 40%;
+  margin-left: 42px;
+}
+
+.bannersecundario {
+  width: 215px;
+  height: 181px;
+  border-radius: 20px;
+  align-items: flex-end;
+  font-family: Roboto;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.bannersecundario p {
+  margin-bottom: 17px;
+}
+
+.bannerextra {
+  width: 215.41px;
+  height: 181.41px;
+  font-family: Roboto;
+  background-color: white;
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #00656e;
+  align-items: center;
+  display: flex;
+
+  justify-content: center;
+}
+
+.uno {
+  background-image: url("http://localhost:3000/images/gears-1236578_1920 1.png");
+  background-size: cover;
+}
+.dos {
+  background-image: url("http://localhost:3000/images/meeting-1245776_1920 1.png");
+  background-size: cover;
+}
+.tres {
+  background-image: url("http://localhost:3000/images/consulting-3031678_1920 1.png");
+  background-size: cover;
+}
+.cuatro {
+  background-image: url("http://localhost:3000/images/architect-3979490_1920 1.png");
+  background-size: cover;
+}
+.cinco {
+  background-image: url("http://localhost:3000/images/loader-1846346_1920 1.png");
+  background-size: cover;
+}
+
+.perfil1 {
+  background-image: url("http://localhost:3000/perfiles/1.png");
+  background-position: bottom bottom;
+}
+.perfil2 {
+  background-image: url("http://localhost:3000/perfiles/2.png");
+  background-position: bottom bottom;
+}
+.perfil3 {
+  background-image: url("http://localhost:3000/perfiles/3.png");
+  background-position: bottom bottom;
+}
+.perfil4 {
+  background-image: url("http://localhost:3000/perfiles/4.png");
+  background-position: bottom bottom;
+}
+.perfil5 {
+  background-image: url("http://localhost:3000/perfiles/5.png");
+  background-position: bottom bottom;
+}
+
+/* Cuarta parte */
+
+#cuartpart {
+  padding: 25px;
+  text-align: center;
+}
+
+.contenedor2 {
+  background: #ffffff;
+  border: 2px solid #555555;
+  box-sizing: border-box;
+  width: 254px;
+  height: 330.46px;
+  border-radius: 20px;
+  margin-left: 18px;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+
+.contenedor2 img {
+  margin: 0 auto 0 auto;
+  width: 73px;
+  position: relative;
+}
+
+.imgcont {
+  width: 340px;
+  height: 160px;
+  position: relative;
+  top: -5px;
+}
+
+.title1 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  text-align: center;
+}
+.title2 {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  text-align: center;
+  color: #707070;
+}
+
+.rating {
+  margin-left: -35px;
+  position: relative;
+  margin-top: -5px;
+  margin: 0 auto 0 auto;
+  margin-bottom: 10px;
+}
+
+.rating li {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.rating img {
+  width: 10px;
+}
+
+.textgeneral {
+  position: relative;
+  top: -50px;
+}
+
+.textgeneral p {
+  margin: 5px;
+  padding: 0px;
+}
+
+/* Quinta parte */
+
+.contq1 {
+  width: 30%;
+  float: left;
+}
+
+.contq1 img {
+  width: 280px;
+  margin-left: 40%;
+  margin-top: 56px;
+}
+
+.contq2 {
+  width: 70%;
+  float: right;
+  padding-top: 2%;
+  text-align: center;
+  left: 0%;
+}
+.contq2 table {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  float: left;
+  top: 60px;
+}
+
+.contq2 table td {
+  padding-left: 80px;
+  color: #6c6c6c;
+}
+
+.comentarios {
+  width: 479px;
+  height: 272px;
+  margin: 0 auto 0 auto;
+  margin-left: 108px;
+  margin-top: 100px;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+
+.firma {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.arrow {
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: -200px;
+  width: 30px;
+  left: 20%;
+}
+
+.emp {
+  display: flex;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  top: 60px;
+}
+
+.empp {
+  margin-left: 80px;
+}
+
+.selected {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #00656f;
+}
+
+/* Pie de página */
+
+footer {
+  margin-top: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+footer div {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 300px;
+  width: 95%;
+  padding: 30px;
+}
